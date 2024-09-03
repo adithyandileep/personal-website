@@ -62,7 +62,7 @@ function validateMessage() {
 }
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbw_baoxye5VvpHOFii56NjybmV6JhlJ9BBoREJeZtvFH_We70cYeGBcr3y3kqIdaU0oDA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxtVqBfwDFCbQzAI9DL5ARJo5wgtDZGFgQCiYS6D93m_Bx1Ul84twUtU8GLk0JkDJVHNg/exec';
 
 form.addEventListener('submit', e => {
     e.preventDefault();
