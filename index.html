@@ -203,10 +203,13 @@
             <span>Connect With Us</span>
         </div>
         <div class="contact-form">
-            <form action="" id="contactForm">
-                <input type="text" placeholder="Your Name">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+            <form type="form" action="" name="contact_form" role="form" id="contactForm">
+                <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                <p id="one" class="help-block text-danger"></p>
+                <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                <p id="two" class="help-block text-danger"></p>
+                <textarea name="Message" id="message" cols="30" rows="10" placeholder="Write Message Here..." required ></textarea>
+                <p id="three" class="help-block text-danger"></p>
                 <input type="button" value="Send" class="contact-button">
             </form>
         </div>
@@ -228,6 +231,9 @@
         <p>By <a href="">Adithyan Dileep</a> | Copyright © 2024 Adithyan Dileep® | All rights reserved.</p>
     </div>
 
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <!-- TYPED JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
@@ -235,6 +241,10 @@
 
     <!-- Link To JS -->
     <script src="./js/script.js"></script>
+
+    <!-- Validation JS -->
+     <script src="./js/validation.js"></script>
+
 </body>
 
 </html>
