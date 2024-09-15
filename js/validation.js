@@ -20,7 +20,7 @@ function validateName() {
     const name = nameInput.value.trim();
     const validationMessage = document.getElementById('one');
     if (name === '') {
-        validationMessage.textContent = 'Name field cannot be empty';
+        validationMessage.textContent = 'This field cannot be empty!!!';
         return false;
     } else {
         validationMessage.textContent = '';
